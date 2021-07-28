@@ -9,8 +9,7 @@
     <!-- START yield content -->
     @yield('content')
     <!-- STOP yield content -->
-
-@include('partials.footer')
-@include('partials.footer_scripts')
+    @include('partials.footer')
+    @include('partials.footer-scripts')
 </body>
 </html>

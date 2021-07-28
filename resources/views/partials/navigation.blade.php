@@ -3,13 +3,13 @@
         <!-- SOCIAL ICONS !-->
         <ul class="navbar-nav col-md-4">
             <li class="nav-item">
-                <a class="nav-link" target="_blank" href="https://discord.gg/aM5rt2S"><i class="fab fa-discord fa-2x icon-outline" style="color: #7289DA;"></i></a>
+                <a class="nav-link" target="_blank" href="https://discord.gg/qwa5mK3cM7"><i class="fab fa-discord fa-2x icon-outline" style="color: #7289DA;"></i></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" target="_blank" href="https://www.facebook.com/MetaDiablo"><i class="fab fa-facebook-square fa-2x icon-outline" style="color: #3b5998;"></i></a>
+                <a class="nav-link" target="_blank" href="h#"><i class="fab fa-facebook-square fa-2x icon-outline" style="color: #3b5998;"></i></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" target="_blank" href="https://www.youtube.com/channel/UCavDwFiHA2dCANS6iabQhUw/"><i class="fab fa-youtube fa-2x icon-outline" style="color: #c4302b;"></i></a>
+                <a class="nav-link" target="_blank" href="h#"><i class="fab fa-youtube fa-2x icon-outline" style="color: #c4302b;"></i></a>
             </li>
 
         </ul><!-- END SOCIAL ICONS !-->
@@ -17,7 +17,7 @@
         <!-- LOGO !-->
         <ul class="navbar-nav mx-auto text-center d-none d-md-block pr-0 col-4">
             <li class="nav-item">
-                <a class="navbar-brand mx-auto" href="{{ url('/') }}"><img src="{{ asset('img/logo240x60.png') }}" alt="logo"></a>
+                <a class="navbar-brand mx-auto" href="{{ url('/') }}"><img src="{{ asset('img/logo240x60-2.png') }}" alt="logo"></a>
             </li>
         </ul><!-- END LOGO !-->
 
@@ -46,7 +46,7 @@
                               {{ __('nav.profileUpdate') }}
                             </a>
                             @can('isAdmin')
-                              <a class="dropdown-item" href="{{ route('backstage') }}">
+                              <a class="dropdown-item" href="{{ URL('/') }}">
                                 {{ __('Backstage') }}
                               </a>
                             @endcan
@@ -77,32 +77,29 @@
         <a class="nav-link" href="{{ url('/') }}"><i class="fas fa-home accent-color icon-outline"></i> {{ __('Home') }}</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="{{ route('forumCategories') }}"><i class="fas fa-comment-alt accent-color icon-outline"></i> {{ __('Forum') }}</a>
+        <a class="nav-link" href="{{ url('/') }}"><i class="fas fa-comment-alt accent-color icon-outline"></i> {{ __('Forum') }}</a>
       </li>
+
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="dropdown-tools" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-tools accent-color icon-outline"></i> {{ __('Tools') }}</a>
         <div class="dropdown-menu" aria-labelledby="dropdown-tools">
-        <a class="dropdown-item" href="{{ route('areaLevels') }}">Area Level Tool</a>
-          <a class="dropdown-item" href="{{ route('rwtool') }}">Rune Word Tool</a>
-          <a class="dropdown-item" href="http://bns.laserblue.org/" target="_blank">(B)attle.(n)et Services</a>
-          <a class="dropdown-item" href="{{ asset('downloads/Hero_Editor_V104.zip') }}" target="_blank"><i class="fas fa-download icon-outline"></i> Diablo 2 Hero Editor v1.04</a>
-          <a class="dropdown-item" href="http://www.svenswrapper.de/english/" target="_blank"> Sven's GLIDE-wrapper</a>
-          <a class="dropdown-item" href="http://laserblue.org/d2ex" target="_blank"> D2EX</a>
+          <a class="dropdown-item" href="#" target="_blank">Substrate Calculator</a>
+          <a class="dropdown-item" href="#" target="_blank">Enclosure Gallon Calculator</a>
         </div>
       </li>
+
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="dropdown-servers" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-server accent-color icon-outline"></i> {{ __('Servers') }}</a>
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown-servers" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-server accent-color icon-outline"></i> {{ __('Information') }}</a>
         <div class="dropdown-menu" aria-labelledby="dropdown-servers">
-          <a class="dropdown-item" href="http://d2ga.net/" target="_blank">Diablo II Game Arena</a>
+          <a class="dropdown-item" href="#" target="_blank">Diet</a>
+          <a class="dropdown-item" href="#" target="_blank">Environment</a>
+          <a class="dropdown-item" href="#" target="_blank">Accessories</a>
+          <a class="dropdown-item" href="#" target="_blank">Shells</a>
         </div>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="dropdown-mods" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-code-branch accent-color icon-outline"></i> {{ __('Mods') }}</a>
-        <div class="dropdown-menu" aria-labelledby="dropdown-mods">
-          <a class="dropdown-item" href="http://plugy.free.fr/en/index.html" target="_blank"> PlugY, The Survival Kit</a>
-        </div>
-      </li>
+
     </ul>
   </div>
+
   <a class="navbar-brand d-block d-sm-none d-none d-sm-block d-md-none d-lg-none d-xl-none mx-auto" href="#"><img src="{{ asset('img/logo240x60.png') }}" alt="logo"></a>
 </nav>

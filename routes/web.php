@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return 'Coming soon!';
-});
+Route::view('/', 'layouts.home.home')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
