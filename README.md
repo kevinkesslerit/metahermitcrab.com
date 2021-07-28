@@ -7,7 +7,7 @@ MetaHermitCrab is a project dedicated towards helping hermit crab owners across 
 
 ## Contributing
 
-Thank you for considering contributing to MetaHermitCrab! The contribution guide can be found in the [MetaCrab documentation](https://metahermitcrab.com/docs/contributions).
+Thank you for considering contributing to MetaHermitCrab! The contribution guide can be found in the [MetaHermitCrab documentation](https://metahermitcrab.com/docs/contributions).
 
 ## Code of Conduct
 
