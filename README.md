@@ -1,4 +1,4 @@
-<p align="center"><a href="https://metahermitcrab.com" target="_blank"><img src="https://repository-images.githubusercontent.com/390322734/a89452da-1b5d-4c10-b7f8-6340b2e18504" width="400"></a></p>
+<p align="center"><a href="https://metahermitcrab.com" target="_blank"><img src="https://repository-images.githubusercontent.com/390322734/6966b3c9-2210-47ee-acd9-2209bf83ccf5" width="400"></a></p>
 
 ## About MetaHermitCrab
 
