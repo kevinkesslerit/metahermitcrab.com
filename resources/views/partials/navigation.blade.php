@@ -83,18 +83,22 @@
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="dropdown-tools" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-tools accent-color icon-outline"></i> {{ __('Tools') }}</a>
         <div class="dropdown-menu" aria-labelledby="dropdown-tools">
-          <a class="dropdown-item" href="#" target="_blank">Substrate Calculator</a>
-          <a class="dropdown-item" href="#" target="_blank">Enclosure Gallon Calculator</a>
+          <a class="dropdown-item" href="#">Substrate Calculator</a>
+          <a class="dropdown-item" href="#">Enclosure Space Calculator</a>
+          <a class="dropdown-item" href="#">Instant Ocean Calculator</a>
+          <a class="dropdown-item" href="{{ route('SPCalculator') }}">Seachem Prime Calculator</a>
         </div>
       </li>
 
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="dropdown-servers" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-server accent-color icon-outline"></i> {{ __('Information') }}</a>
         <div class="dropdown-menu" aria-labelledby="dropdown-servers">
-          <a class="dropdown-item" href="#" target="_blank">Diet</a>
-          <a class="dropdown-item" href="#" target="_blank">Environment</a>
-          <a class="dropdown-item" href="#" target="_blank">Accessories</a>
-          <a class="dropdown-item" href="#" target="_blank">Shells</a>
+          <a class="dropdown-item" href="#">Diet</a>
+          <a class="dropdown-item" href="#">Environment</a>
+          <a class="dropdown-item" href="#">Accessories</a>
+          <a class="dropdown-item" href="#">Shells</a>
+          <a class="dropdown-item" href="#">Cleaning</a>
+          <a class="dropdown-item" href="#">New Owner List</a>
         </div>
       </li>
 

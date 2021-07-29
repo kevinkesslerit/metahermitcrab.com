@@ -7,7 +7,15 @@
     <!-- END navigation -->
 
     <!-- START yield content -->
-    @yield('content')
+    @if(Route::current()->getName() != 'welcome')
+    <main class="py-4">
+        @yield('content')
+    </main>
+    @else
+        @yield('content')
+    @endif
+
+
     <!-- STOP yield content -->
     @include('partials.footer')
     @include('partials.footer-scripts')

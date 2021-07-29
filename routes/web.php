@@ -11,8 +11,10 @@
 |
 */
 
-Route::view('/', 'layouts.home.home')->name('home');
+
 
 Auth::routes();
-
+Route::view('/', 'layouts.home.home')->name('welcome');
 Route::get('/home', 'HomeController@index')->name('home');
+Route::view('/spcalc', 'layouts.tools.spcalc')->name('SPCalculator');
+Route::post('/spcalc', 'SP_Controller@index')->name('SP_POST');
